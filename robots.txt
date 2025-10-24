@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block private or unnecessary files/folders
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+Sitemap: https://yourdomain.com/sitemap.xml
+

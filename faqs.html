@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQs | TDEE Calculator</title>
+<meta name="description" content="Frequently Asked Questions about TDEE Calculator — learn how to calculate TDEE, BMR, calorie goals for weight loss, maintenance, and muscle gain.">
+<style>
+body{font-family:Poppins,sans-serif;background:#fafafa;color:#222;margin:0;padding:20px;line-height:1.7;}
+h1{color:#0072ff;text-align:center;margin-bottom:20px;}
+h2{color:#0072ff;margin-top:20px;}
+.faq-container{max-width:900px;margin:0 auto;}
+.faq-item{background:#fff;border-radius:10px;margin-bottom:10px;padding:15px;box-shadow:0 3px 8px rgba(0,0,0,0.05);}
+.faq-question{cursor:pointer;font-weight:600;position:relative;padding-right:20px;}
+.faq-question::after{content:'+';position:absolute;right:0;color:#0072ff;font-weight:bold;}
+.faq-question.active::after{content:'-';}
+.faq-answer{display:none;margin-top:10px;}
+a{color:#0072ff;text-decoration:none;}
+a:hover{text-decoration:underline;}
+footer{margin-top:40px;padding:20px;text-align:center;background:#f0f0f0;border-top:1px solid #ddd;}
+footer a{margin:0 5px;color:#0072ff;text-decoration:none;}
+footer a:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<h1>Frequently Asked Questions (FAQs)</h1>
+
+<div class="faq-container">
+
+  <div class="faq-item">
+    <div class="faq-question">What is TDEE?</div>
+    <div class="faq-answer">
+      <p>TDEE (Total Daily Energy Expenditure) is the total number of calories your body burns in a day, including your basal metabolic rate and activity level.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How do I calculate TDEE?</div>
+    <div class="faq-answer">
+      <p>You can calculate TDEE by using your age, gender, height, weight, and activity level. Our <a href="index.html">TDEE Calculator</a> does this automatically for you.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What is BMR and how is it different from TDEE?</div>
+    <div class="faq-answer">
+      <p>BMR (Basal Metabolic Rate) is the number of calories your body burns at rest. TDEE includes BMR plus calories burned through daily activities and exercise.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How many calories should I eat to lose weight?</div>
+    <div class="faq-answer">
+      <p>To lose weight, you should create a calorie deficit. Typically, consuming 500 calories less than your TDEE per day helps achieve safe and sustainable fat loss.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can TDEE help me gain muscle?</div>
+    <div class="faq-answer">
+      <p>Yes! Eating more calories than your TDEE along with strength training can support muscle gain. Our calculator provides estimated calories for gain, maintenance, and fat loss.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Is the TDEE calculator accurate?</div>
+    <div class="faq-answer">
+      <p>It provides an estimate based on scientific formulas. Individual results may vary depending on metabolism, lifestyle, and accuracy of the input data.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can I use the TDEE calculator if I am very active?</div>
+    <div class="faq-answer">
+      <p>Yes! You can select your correct activity level (e.g., lightly active, moderately active, very active, extra active) to get a more accurate estimate of your daily calorie needs.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <a href="index.html">Home</a> | 
+  <a href="about.html">About</a> | 
+  <a href="contact.html">Contact</a> | 
+  <a href="privacy.html">Privacy Policy</a> | 
+  <a href="terms.html">Terms</a> | 
+  <a href="disclaimer.html">Disclaimer</a>
+</footer>
+
+<script>
+const questions = document.querySelectorAll('.faq-question');
+questions.forEach(q => {
+  q.addEventListener('click', () => {
+    q.classList.toggle('active');
+    const answer = q.nextElementSibling;
+    answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+  });
+});
+</script>
+
+</body>
+</html>
