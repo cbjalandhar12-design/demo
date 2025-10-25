@@ -6,5 +6,6 @@ Disallow: /admin/
 Disallow: /tmp/
 Disallow: /private/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://cbjalandhar12-design.github.io/demo/index.html/sitemap.xml
+
 
