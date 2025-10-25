@@ -31,6 +31,31 @@
     <priority>0.5</priority>
   </url>
 
+<url>
+    <loc>https://cbjalandhar12-design.github.io/demo/terms.html</loc>
+    <lastmod>2025-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+    <url>
+    <loc>https://cbjalandhar12-design.github.io/demo/privacy.html</loc>
+    <lastmod>2025-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+    <url>
+    <loc>https://cbjalandhar12-design.github.io/demo/disclaimer.html</loc>
+    <lastmod>2025-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+    
+
 </urlset>
+
 
 
